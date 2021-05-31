@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+body{
+  font-family: 'Roboto Condensed', sans-serif !important;
+}
+.asset-title:hover {
+    text-decoration: none;
+}
+
+.catagory-card .card {
+    min-height: 190px;
+}
+
+.catagory-card .card-title {
+    margin-top: 7px;
+}
+
+.login-main-bg {
+    background: url(../img/background/undraw_remotely_2j6y.png);
+    background-size: cover;
+    background-position: unset;
+    min-height: 100vh;
+
+}
+.login-main-box {
+	width: 68%;
+	height: 425px;
+	margin: auto;
+	background: #fff;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px
+}
+.login-image-box {
+	padding: 40px;
+
+	text-align: center;
+}
+.logo-set-box{
+  text-align: center;
+}
+.logo-set-box p{
+  margin: 20px 0px;
+  font-size: 18px;
+  text-transform: capitalize;
+  color:#626262;
+}
+
+.logo-set-box img{
+  width: 50px;
+}
+
+.login-form-box{
+  background: #5886c5;
+  height: 425px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 40px;
+
+}
+
+.log-reg-tab  .nav-item{
+  width: 50%;
+}
+
+.log-reg-tab  .nav-tabs .nav-link{
+width: 100%;
+color: #fff;
+font-size: 17px;
+text-transform: uppercase;
+border-radius: 0;
+border-color: #fff;
+text-align: center;display: block;
+
+}
+
+.log-reg-tab  .nav-tabs .nav-link.active{
+
+color: #5886c5;
+}
+.log-reg-tab .login-form{
+  margin: 20px 0px;
+}
+
+.log-reg-tab .login-form label{
+  color: #fff;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.log-reg-tab .login-form .form-control{
+  background-color: transparent;
+  border-radius: 0;
+
+}
+.log-reg-tab .login-form ::placeholder{
+  color: #fff;
+}
+
+.log-reg-tab .login-form  .icon {
+
+	color: #fff;
+}
+.log-reg-tab .login-form  .input-group-text{
+  padding-left: 10px;
+
+}
+
+.log-reg-tab .login-form  .form-label-description {
+	float: right;
+	text-align: right;
+	font-size: 15px;
+	text-transform: capitalize;
+}
+
+.log-reg-tab .login-form  .form-label-description a{
+color: #fff;
+}
+.log-reg-tab .login-form  .form-label-description a:hover{
+color: #fff;
+text-decoration: none;
+}
+.log-reg-tab .login-form .form-control:focus{
+  box-shadow: none;
+
+}
+.technical-partner{
+  text-align: right;
+
+}
+.technical-partner img{
+  width: 15%;
+  padding-left: 5px;
+}
+.login-title-box h1{
+  color:#fff;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+
+}
